@@ -4,7 +4,7 @@ sections:
   - type: hero_section
     title: Portfolio
     align: center
-  - title: lorem-ipsum
+  - title: Here are some startups in our community
     show_recent: false
     recent_count: 0
     type: blog_feed_section
