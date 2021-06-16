@@ -5,19 +5,14 @@ sections:
     title: Who are we?
     align: center
   - type: content_section
-    content: >-
-      Nisi porta lorem mollis aliquam ut porttitor. Pellentesque dignissim enim
-      sit amet venenatis urna cursus eget nunc. Dui nunc mattis enim ut tellus.
-      Eu sem integer vitae justo eget magna fermentum. Habitant morbi tristique
-      senectus et netus et malesuada fames. Ipsum dolor sit amet consectetur
-      adipiscing elit pellentesque habitant.
-
-
-      Aliquet lectus proin nibh nisl condimentum id venenatis a condimentum. Ac
-      felis donec et odio pellentesque. Sem nulla pharetra diam sit amet.
-      Egestas tellus rutrum tellus pellentesque eu. Auctor augue mauris augue
-      neque. Lectus arcu bibendum at varius vel pharetra. Enim sed faucibus
-      turpis in eu mi bibendum neque egestas.
+    content: >
+      We are a CaaS company (community as a service company) providing a
+      community of entrepreneurs. Why do we do this you ask? Our goal is to help
+      you succeed! We firmly believe that anyone with enough determination can
+      be an entrepreneur. We have some helpful resources on this website and
+      have many more opportunities on our Discord server. We are constantly
+      looking for feedback, new startups to help and people to meet. Feel free
+      to message me!
   - type: team_section
     title: Our Team
     team:
