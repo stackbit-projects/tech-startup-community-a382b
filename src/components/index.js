@@ -15,6 +15,7 @@ import Layout from './Layout';
 import SectionActions from './SectionActions';
 import TeamSection from './TeamSection';
 import SectionGrid from './SectionGrid';
+import CtaButtons from './CtaButtons';
 
 export {
     Action,
