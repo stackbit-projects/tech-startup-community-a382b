@@ -11,7 +11,7 @@ sections:
     background_color: white
     type: cta_section
   - section_id: showcase
-    type: grid_section
+    type: section_grid
     col_number: three
     grid_items:
       - title: Exto
