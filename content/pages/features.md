@@ -60,6 +60,19 @@ sections:
           - label: Learn More
             url: /about
             style: primary
+      - title: Community
+        content: >
+          We provide you with support and encouragement. Entrepreneurship is
+          extremely challenging yet rewarding. You are not alone. We are here to
+          support and encourage each other- we are a community of entrepreneurs!
+        align: left
+        image: images/feature.svg
+        image_alt: Feature 3 placeholder image
+        image_position: left
+        actions:
+          - label: Learn More
+            url: /about
+            style: primary
 seo:
   title: Features
   description: This is the features page
