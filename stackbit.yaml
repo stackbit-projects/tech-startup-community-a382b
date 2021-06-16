@@ -504,6 +504,22 @@ models:
           type: reference
           models:
             - person
+  team_section:
+    type: object
+    label: Team Section
+    labelField: title
+    fields:
+      - type: string
+        name: title
+        label: Title
+        description: The title of the section
+      - type: list
+        name: team
+        label: Team
+        items:
+          type: reference
+          models:
+            - person
   feature:
     type: object
     label: Feature
