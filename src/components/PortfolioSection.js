@@ -50,7 +50,7 @@ export default class PortfolioSection extends React.Component {
                 {!_.isEmpty(portfolio) && (
                     <div className="container container--lg">
                         <div className="flex flex--col-3">
-                            {_.map(portfolio, (portfolioMemberRef, index) => this.renderPortfolioMember(teamMemberRef, index, data))}
+                            {_.map(portfolio, (portfolioMemberRef, index) => this.renderPortfolioMember(portfolioMemberRef, index, data))}
                         </div>
                     </div>
                 )}
