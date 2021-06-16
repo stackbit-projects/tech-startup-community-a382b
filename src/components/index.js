@@ -33,6 +33,7 @@ export {
     Layout,
     SectionActions,
     TeamSection,
+    PortfolioGrid
 };
 
 export default {
@@ -52,4 +53,5 @@ export default {
     Layout,
     SectionActions,
     TeamSection,
+    PortfolioGrid
 };
