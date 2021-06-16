@@ -7,7 +7,7 @@ sections:
     align: center
   - type: features_section
     features:
-      - title: Helps you find your next idea
+      - title: Ideas
         content: >
           We enjoy sharing and discussing ideas to help you find an idea for
           your startup. We listen to everyone's ideas, since there is no such
