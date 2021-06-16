@@ -18,18 +18,17 @@ export default class PortfolioSection extends React.Component {
         return (
             <div key={index} className="cell">
                 <div className="card team-member">
-                    
+                    {photo && (
+                        <figure className="card__media card__media--bottom">
+                            <img src={withPrefix(photo)} alt={photoAlt} />
+                        </figure>
+                    )}
                     <div className="card__body">
                         <header className="card__header">
                             <h3 className="h4 card__title">{name}</h3>
                         </header>
                         {bio && <div className="card__copy">{markdownify(bio)}</div>}
                     </div>
-                    {photo && (
-                        <figure className="card__media card__media--bottom">
-                            <img src={withPrefix(photo)} alt={photoAlt} />
-                        </figure>
-                    )}
                 </div>
             </div>
         )
