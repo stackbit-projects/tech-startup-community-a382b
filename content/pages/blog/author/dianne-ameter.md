@@ -8,7 +8,7 @@ sections:
     show_recent: false
     author: content/data/team/dianne-ameter.yaml
 seo:
-  title: Posts by Dianne Ameter
+  title: Posts by Charles C
   description: This is the author archive page
   extra:
     - name: 'og:type'
