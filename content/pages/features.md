@@ -34,10 +34,11 @@ sections:
             url: /style-guide
             style: primary
       - title: Feedback
-        content: >-
-          Id nibh tortor id aliquet lectus proin. Amet venenatis urna cursus
-          eget nunc. Lacus sed turpis tincidunt id aliquet risus feugiat in
-          ante.
+        content: >
+          We love looking at your projects and providing both positive feedback
+          and potential improvements. We will provide our honest thoughts and
+          help you improve your product through gaining valuable insight from
+          many other people.
         align: left
         image: images/feature.svg
         image_alt: Feature 3 placeholder image
