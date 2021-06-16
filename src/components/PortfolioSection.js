@@ -38,7 +38,7 @@ export default class PortfolioSection extends React.Component {
         const data = _.get(this.props, 'data');
         const section = _.get(this.props, 'section');
         const title = _.get(section, 'title');
-        const team = _.get(section, 'portfolio');
+        const portfolio = _.get(section, 'portfolio');
 
         return (
             <section className="section section--portfolio">
@@ -47,10 +47,10 @@ export default class PortfolioSection extends React.Component {
                         <h2 className="section__title">{title}</h2>
                     </div>
                 )}
-                {!_.isEmpty(team) && (
+                {!_.isEmpty(portfolio) && (
                     <div className="container container--lg">
                         <div className="flex flex--col-3">
-                            {_.map(team, (teamMemberRef, index) => this.renderPortfolioMember(teamMemberRef, index, data))}
+                            {_.map(portfolio, (portfolioMemberRef, index) => this.renderPortfolioMember(teamMemberRef, index, data))}
                         </div>
                     </div>
                 )}
