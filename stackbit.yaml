@@ -175,6 +175,37 @@ models:
       - type: markdown
         name: bio
         label: Bio
+  startups:
+    type: data
+    label: Startups
+    folder: team
+    labelField: id
+    fields:
+      - type: string
+        name: id
+        label: ID
+        description: 'A unique identifier used when filtering posts, e.g. "john-doe"'
+        required: true
+      - type: string
+        name: link
+        label: Link
+        description: 'The link to the author page, e.g. "blog/author/john-doe"'
+      - type: string
+        name: first_name
+        label: First Name
+        required: true
+      - type: string
+        name: last_name
+        label: Last Name
+      - type: image
+        name: photo
+        label: Image
+      - type: string
+        name: photo_alt
+        label: Image Alt Text
+      - type: markdown
+        name: bio
+        label: Bio
   category:
     type: data
     label: Category
