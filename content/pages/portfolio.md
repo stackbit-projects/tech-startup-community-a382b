@@ -4,6 +4,10 @@ sections:
   - type: hero_section
     title: Portfolio
     align: center
+  - type: team_section
+    title: Our Team
+    team:
+      - content/data/team/charles-c.yaml
   - type: cta_section
     title: Get listed
     subtitle: Are you interested in being listed here?
