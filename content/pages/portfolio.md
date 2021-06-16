@@ -8,11 +8,6 @@ sections:
     show_recent: false
     recent_count: 0
     type: blog_feed_section
-  - type: content_section
-    content: >-
-      Here are some of the amazing startups in our community. Feel free to check
-      them out!
-    title: test
   - type: cta_section
     title: Join the Team
     subtitle: Are you interested in being listed here?
