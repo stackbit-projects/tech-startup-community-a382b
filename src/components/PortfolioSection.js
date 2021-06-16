@@ -38,7 +38,7 @@ export default class PortfolioSection extends React.Component {
         const data = _.get(this.props, 'data');
         const section = _.get(this.props, 'section');
         const title = _.get(section, 'title');
-        const team = _.get(section, 'team');
+        const team = _.get(section, 'portfolio');
 
         return (
             <section className="section section--team">
