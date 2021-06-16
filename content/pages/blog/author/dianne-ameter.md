@@ -15,7 +15,7 @@ seo:
       value: website
       keyName: property
     - name: 'og:title'
-      value: Posts by Dianne Ameter
+      value: Posts by Charles C
       keyName: property
     - name: 'og:description'
       value: This is the author archive page
@@ -27,7 +27,7 @@ seo:
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: Posts by Dianne Ameter
+      value: Posts by Charles C
     - name: 'twitter:description'
       value: This is the author archive page
     - name: 'twitter:image'
