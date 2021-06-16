@@ -1,11 +1,9 @@
 ---
-title: Showcase
+title: Portfolio
 sections:
   - type: hero_section
-    title: Showcase
+    title: Portfolio
     align: center
-    image: images/5.jpg
-    content: This is an optional page subtitle
   - type: content_section
     content: >-
       Here are some of the amazing startups in our community. Feel free to check them out!
