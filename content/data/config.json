@@ -29,14 +29,6 @@
                 "type": "action"
             },
             {
-                "label": "lorem-ipsum",
-                "url": "#",
-                "style": "link",
-                "new_window": false,
-                "no_follow": false,
-                "type": "action"
-            },
-            {
                 "label": "Join Us",
                 "url": "https://discord.gg/VNStPxRCCk",
                 "style": "primary"
