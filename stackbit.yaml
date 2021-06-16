@@ -506,7 +506,7 @@ models:
             - person
   portfolio_section:
     type: object
-    label: Team Section
+    label: Portfolio Section
     labelField: title
     fields:
       - type: string
