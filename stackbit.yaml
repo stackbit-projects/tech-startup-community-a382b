@@ -514,8 +514,8 @@ models:
         label: Title
         description: The title of the section
       - type: list
-        name: team
-        label: Team
+        name: portfolio
+        label: Portfolio
         items:
           type: reference
           models:
