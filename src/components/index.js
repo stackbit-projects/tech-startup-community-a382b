@@ -14,7 +14,7 @@ import Icon from './Icon';
 import Layout from './Layout';
 import SectionActions from './SectionActions';
 import TeamSection from './TeamSection';
-import PortfolioGrid from './PortfolioGrid';
+import PortfolioSection from './PortfolioSection';
 
 export {
     Action,
@@ -33,7 +33,7 @@ export {
     Layout,
     SectionActions,
     TeamSection,
-    PortfolioGrid
+    PortfolioSection
 };
 
 export default {
@@ -53,5 +53,5 @@ export default {
     Layout,
     SectionActions,
     TeamSection,
-    PortfolioGrid
+    PortfolioSection
 };
