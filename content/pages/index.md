@@ -103,7 +103,7 @@ sections:
     title: Join our community
     subtitle: >-
       Join our Discord server to start networking, discussing ideas, sharing
-      feedback and meeting incredible entrepreneur
+      feedback and meeting other incredible entrepreneurs
     actions:
       - label: Join us
         url: /features
