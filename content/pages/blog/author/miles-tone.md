@@ -1,5 +1,5 @@
 ---
-title: Miles Tone
+title: Charles C
 sections:
   - type: hero_section
     title: All Posts By Miles Tone
