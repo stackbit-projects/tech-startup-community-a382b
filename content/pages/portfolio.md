@@ -1,5 +1,5 @@
 ---
-title: Portfolio
+title: Showcase
 sections:
   - type: hero_section
     title: Showcase
