@@ -23,7 +23,6 @@ sections:
     team:
       - content/data/team/miles-tone.yaml
       - content/data/team/hanson-deck.yaml
-      - content/data/team/gordon-norman.yaml
   - type: cta_section
     title: Join the Team
     subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
