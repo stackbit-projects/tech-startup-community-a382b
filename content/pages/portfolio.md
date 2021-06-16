@@ -2,7 +2,7 @@
 title: Portfolio
 sections:
   - type: hero_section
-    title: Portfolio
+    title: Showcase
     align: center
     image: images/5.jpg
     content: This is an optional page subtitle
