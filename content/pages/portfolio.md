@@ -10,8 +10,8 @@ sections:
     has_background: false
     background_color: white
     type: cta_section
-    - section_id: showcase
-    type: section_grid
+  - section_id: showcase
+    type: grid_section
     col_number: three
     grid_items:
       - title: Exto
