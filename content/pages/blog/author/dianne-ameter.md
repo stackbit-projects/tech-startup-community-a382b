@@ -2,7 +2,7 @@
 title: Dianne Ameter
 sections:
   - type: hero_section
-    title: All Posts By Dianne Ameter
+    title: All Posts By Charles C
     align: center
   - type: blog_feed_section
     show_recent: false
