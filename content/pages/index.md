@@ -106,7 +106,7 @@ sections:
       feedback and meeting other incredible entrepreneurs
     actions:
       - label: Join us
-        url: /features
+        url: 'https://discord.com/invite/VNStPxRCCk'
         style: primary
     has_background: true
     background_color: gray
