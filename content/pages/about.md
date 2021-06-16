@@ -9,10 +9,10 @@ sections:
       We are a CaaS company (community as a service company) providing a
       community of entrepreneurs. Why do we do this you ask? Our goal is to help
       you succeed! We firmly believe that anyone with enough determination can
-      be an entrepreneur. We have some helpful resources on this website and
+      become an entrepreneur. We have some helpful resources on this website and
       have many more opportunities on our Discord server. We are constantly
-      looking for feedback, new startups to help and people to meet. Feel free
-      to message me!
+      looking for feedback, new startups to help and people to meet! Feel free
+      to reach out to us or other entrepreneurs in our community!
   - type: team_section
     title: Our Team
     team:
