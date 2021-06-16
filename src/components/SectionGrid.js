@@ -2,7 +2,7 @@ import React from 'react';
 import _ from 'lodash';
 
 import { classNames, htmlToReact, withPrefix, Link, markdownify } from '../utils';
-//import CtaButtons from './CtaButtons';
+import CtaButtons from './CtaButtons';
 
 export default class SectionGrid extends React.Component {
     renderGridItem(gridItem, index) {
