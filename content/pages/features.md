@@ -8,10 +8,10 @@ sections:
   - type: features_section
     features:
       - title: Helps you find your next idea
-        content: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
-          ligula, cursus id molestie vel, maximus aliquet risus. Vivamus in nibh
-          fringilla, fringilla.
+        content: >
+          We enjoy sharing and discussing ideas to help you find an idea for
+          your startup. We listen to everyone's ideas, since there is no such
+          thing as a bad idea- only bad execution!
         align: left
         image: images/feature.svg
         image_alt: Feature 1 placeholder image
