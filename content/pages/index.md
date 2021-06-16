@@ -28,44 +28,73 @@ sections:
     title: Features
     features:
       - title: Ideas
-        content: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
-          ligula, cursus id molestie vel, maximus aliquet risus. Vivamus in nibh
-          fringilla, fringilla.
+        content: >
+          We enjoy sharing and discussing ideas to help you find an idea for
+          your startup. We listen to everyone's ideas, since there is no such
+          thing as a bad idea- only bad execution!
         align: left
         image: images/feature.svg
         image_alt: Feature 1 placeholder image
         image_position: right
         actions:
           - label: Learn More
-            url: /features
-            style: secondary
-      - title: Feature 2
-        content: >-
-          Ac felis donec et odio pellentesque. Sagittis vitae et leo duis ut
-          diam quam nulla. Ullamcorper a lacus vestibulum sed arcu non odio
-          euismod lacinia.
+            url: /about
+            style: primary
+      - title: Advice
+        content: >
+          Whether you are an experienced entrepreneur or just starting your
+          journey, we are happy to provide advice, resources and suggestions to
+          support you in your journey.
         align: left
         image: images/feature.svg
         image_alt: Feature 2 placeholder image
         image_position: left
         actions:
           - label: Learn More
-            url: /features
-            style: secondary
-      - title: Feature 3
-        content: >-
-          Id nibh tortor id aliquet lectus proin. Amet venenatis urna cursus
-          eget nunc. Lacus sed turpis tincidunt id aliquet risus feugiat in
-          ante.
+            url: /about
+            style: primary
+      - title: Feedback
+        content: >
+          We love looking at your projects and providing both positive feedback
+          and potential improvements. We will provide our honest thoughts and
+          help you improve your product through gaining valuable insight from
+          many other people.
         align: left
         image: images/feature.svg
         image_alt: Feature 3 placeholder image
         image_position: right
         actions:
           - label: Learn More
-            url: /features
-            style: secondary
+            url: /about
+            style: primary
+      - title: Networking
+        content: >
+          We have a variety of opportunities to network with other
+          entrepreneurs, join existing startups, co-found companies with others
+          or simply discuss ideas. As a large community from a variety of
+          backgrounds, we have numerous opportunities for you to meet other
+          fellow entrepreneurs or inspire each other!
+        align: left
+        image: images/feature.svg
+        image_alt: Feature 3 placeholder image
+        image_position: left
+        actions:
+          - label: Learn More
+            url: /about
+            style: primary
+      - title: Community
+        content: >
+          We provide you with support and encouragement. Entrepreneurship is
+          extremely challenging yet rewarding. You are not alone. We are here to
+          support and encourage each other- we are a community of entrepreneurs!
+        align: left
+        image: images/feature.svg
+        image_alt: Feature 3 placeholder image
+        image_position: right
+        actions:
+          - label: Learn More
+            url: /about
+            style: primary
   - type: blog_feed_section
     title: What's New
     show_recent: true
