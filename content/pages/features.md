@@ -49,10 +49,9 @@ sections:
             style: primary
       - title: Support
         content: >
-          We love looking at your projects and providing both positive feedback
-          and potential improvements. We will provide our honest thoughts and
-          help you improve your product through gaining valuable insight from
-          many other people.
+          We provide you with support and encouragement. Entrepreneurship is
+          extremely challenging yet rewarding. You are not alone. We are here to
+          support and encourage each other- we are a community of entrepreneurs!
         align: left
         image: images/feature.svg
         image_alt: Feature 3 placeholder image
