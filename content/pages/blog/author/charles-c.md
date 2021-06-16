@@ -6,7 +6,7 @@ sections:
     align: center
   - type: blog_feed_section
     show_recent: false
-    author: content/data/team/dianne-ameter.yaml
+    author: content/data/team/charles-c.yaml
 seo:
   title: Posts by Charles C
   description: This is the author archive page
