@@ -1,6 +1,5 @@
 ---
 title: Portfolio
-align: center
 seo:
   title: ''
   description: ''
