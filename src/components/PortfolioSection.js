@@ -17,7 +17,7 @@ export default class PortfolioSection extends React.Component {
         const bio = _.get(portfolioMember, 'bio');
         return (
             <div key={index} className="cell">
-                <div className="card team-member">
+                <div className="card2 team-member">
                     {photo && (
                         <figure className="card__media card__media--top">
                             <img src={withPrefix(photo)} alt={photoAlt} />
