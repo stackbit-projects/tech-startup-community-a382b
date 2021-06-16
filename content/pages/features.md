@@ -47,6 +47,20 @@ sections:
           - label: Learn More
             url: /blog
             style: primary
+      - title: Feedback
+        content: >
+          We love looking at your projects and providing both positive feedback
+          and potential improvements. We will provide our honest thoughts and
+          help you improve your product through gaining valuable insight from
+          many other people.
+        align: left
+        image: images/feature.svg
+        image_alt: Feature 3 placeholder image
+        image_position: right
+        actions:
+          - label: Learn More
+            url: /blog
+            style: primary
 seo:
   title: Features
   description: This is the features page
