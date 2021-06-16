@@ -5,16 +5,16 @@ import { getData, withPrefix, markdownify } from '../utils';
 
 export default class PortfolioSection extends React.Component {
     renderPortfolioMember(portfolioMemberRef, index, data) {
-        const teamMember = getData(data, portfolioMemberRef);
+        const portfolioMember = getData(data, portfolioMemberRef);
         if (!portfolioMember) {
             return null;
         }
-        const photo = _.get(teamMember, 'photo');
-        const photoAlt = _.get(teamMember, 'photo_alt', '');
-        const firstName = _.get(teamMember, 'first_name', '');
-        const lastName = _.get(teamMember, 'last_name', '');
+        const photo = _.get(portfolioMember, 'photo');
+        const photoAlt = _.get(portfolioMember, 'photo_alt', '');
+        const firstName = _.get(portfolioMember, 'first_name', '');
+        const lastName = _.get(portfolioMember, 'last_name', '');
         const name = _.trim(`${firstName} ${lastName}`);
-        const bio = _.get(teamMember, 'bio');
+        const bio = _.get(portfolioMember, 'bio');
         return (
             <div key={index} className="cell">
                 <div className="card team-member">
