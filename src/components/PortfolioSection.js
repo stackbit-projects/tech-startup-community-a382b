@@ -4,7 +4,7 @@ import _ from 'lodash';
 import { getData, withPrefix, markdownify } from '../utils';
 
 export default class PortfolioSection extends React.Component {
-    renderTeamMember(teamMemberRef, index, data) {
+    renderPortfolioMember(teamMemberRef, index, data) {
         const teamMember = getData(data, teamMemberRef);
         if (!teamMember) {
             return null;
