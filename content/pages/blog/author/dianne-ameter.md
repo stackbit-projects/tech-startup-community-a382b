@@ -1,5 +1,5 @@
 ---
-title: Dianne Ameter
+title: Charles C
 sections:
   - type: hero_section
     title: All Posts By Charles C
