@@ -49,9 +49,11 @@ sections:
             style: primary
       - title: Networking
         content: >
-          We provide you with support and encouragement. Entrepreneurship is
-          extremely challenging yet rewarding. You are not alone. We are here to
-          support and encourage each other- we are a community of entrepreneurs!
+          We have a variety of opportunities to network with other
+          entrepreneurs, join existing startups, co-found companies with others
+          or simply discuss ideas. As a large community from a variety of
+          backgrounds, we have numerous opportunities for you to meet other
+          fellow entrepreneurs or inspire each other!
         align: left
         image: images/feature.svg
         image_alt: Feature 3 placeholder image
