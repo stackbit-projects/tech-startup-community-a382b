@@ -1,5 +1,5 @@
 ---
-title: lorem-ipsum
+title: Portfolio
 seo:
   title: ''
   description: ''
