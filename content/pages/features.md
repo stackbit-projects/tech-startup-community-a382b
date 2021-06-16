@@ -47,7 +47,7 @@ sections:
           - label: Learn More
             url: /about
             style: primary
-      - title: Feedback
+      - title: Support
         content: >
           We love looking at your projects and providing both positive feedback
           and potential improvements. We will provide our honest thoughts and
