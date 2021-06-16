@@ -5,7 +5,7 @@ sections:
     title: Portfolio
     align: center
   - type: cta_section
-    title: Join the Team
+    title: Get listed
     subtitle: Are you interested in being listed here?
     actions:
       - label: Contact Us
