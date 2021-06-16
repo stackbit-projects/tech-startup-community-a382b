@@ -3,7 +3,7 @@ title: Features
 sections:
   - type: hero_section
     title: Features
-    subtitle: What does our community provide
+    subtitle: What does our community provide?
     align: center
   - type: features_section
     features:
