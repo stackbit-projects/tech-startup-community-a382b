@@ -229,7 +229,7 @@ models:
         name: date
         label: Date
         description: The publish date of the post
-        required: true
+        required: false
       - type: reference
         name: author
         label: Author
