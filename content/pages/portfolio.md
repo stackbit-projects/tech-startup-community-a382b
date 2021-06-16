@@ -20,7 +20,7 @@ sections:
       turpis in eu mi bibendum neque egestas.
   - type: cta_section
     title: Join the Team
-    subtitle: Are you interested in joining our staff team?
+    subtitle: Are you interested in being listed here?
     actions:
       - label: Contact Us
         url: /contact
