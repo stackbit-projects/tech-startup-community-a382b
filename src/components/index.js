@@ -14,7 +14,6 @@ import Icon from './Icon';
 import Layout from './Layout';
 import SectionActions from './SectionActions';
 import TeamSection from './TeamSection';
-import SectionGrid from './SectionGrid';
 
 export {
     Action,
@@ -33,7 +32,6 @@ export {
     Layout,
     SectionActions,
     TeamSection,
-    SectionGrid,
 };
 
 export default {
@@ -53,5 +51,4 @@ export default {
     Layout,
     SectionActions,
     TeamSection,
-    SectionGrid,
 };
