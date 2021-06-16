@@ -291,7 +291,6 @@ models:
             - features_section
             - hero_section
             - team_section
-            - section_grid
       - type: model
         name: seo
         models:
