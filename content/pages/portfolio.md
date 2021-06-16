@@ -16,19 +16,19 @@ sections:
     grid_items:
       - title: Exto
         title_url: 'https://themes.stackbit.com/demos/exto/'
-        image: images/5.jpg
+        image: images/1.png
         content: A portfolio theme for Unibit
       - title: Fresh
         title_url: 'https://themes.stackbit.com/demos/fresh/'
-        image: images/2.jpg
+        image: images/2.png
         content: A personal theme for Unibit
       - title: Fjord
         title_url: 'https://themes.stackbit.com/demos/fjord/'
-        image: images/1.jpg
+        image: images/1.png
         content: A minimal blogging theme for Unibit
       - title: Ampersand
         title_url: 'https://themes.stackbit.com/demos/ampersandexto/'
-        image: images/4.jpg
+        image: images/4.png
         content: Medium inspired blogging theme for Unibit
         actions: []
         type: grid_item
