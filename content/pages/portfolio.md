@@ -32,8 +32,8 @@ sections:
     has_background: true
     background_color: blue
 seo:
-  title: Who We Are
-  description: This is the about us page
+  title: Portfolio
+  description: This is a list of startups in our community
   extra:
     - name: 'og:type'
       value: website
