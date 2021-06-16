@@ -68,7 +68,7 @@ sections:
         align: left
         image: images/feature.svg
         image_alt: Feature 3 placeholder image
-        image_position: left
+        image_position: right
         actions:
           - label: Learn More
             url: /about
