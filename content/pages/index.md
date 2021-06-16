@@ -73,8 +73,8 @@ sections:
   - type: cta_section
     title: Join our community
     subtitle: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a metus
-      quis lorem malesuada luctus.
+      Join our Discord server to start networking, discussing ideas, sharing
+      feedback and meeting incredible entrepreneur
     actions:
       - label: Join us
         url: /features
