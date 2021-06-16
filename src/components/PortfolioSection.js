@@ -19,7 +19,7 @@ export default class PortfolioSection extends React.Component {
             <div key={index} className="cell">
                 <div className="card team-member">
                     {photo && (
-                        <figure className="card__media card__media--bottom">
+                        <figure className="card__media card__media--top">
                             <img src={withPrefix(photo)} alt={photoAlt} />
                         </figure>
                     )}
