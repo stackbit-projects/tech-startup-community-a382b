@@ -1,5 +1,5 @@
 ---
-title: Who We Are
+title: Portfolio
 sections:
   - type: hero_section
     title: Who are we?
