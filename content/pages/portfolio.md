@@ -6,7 +6,7 @@ sections:
     align: center
   - type: content_section
     content: >-
-      Here are some of the startups in our community. Feel free to check them out!
+      Here are some of the amazing startups in our community. Feel free to check them out!
   - type: cta_section
     title: Join the Team
     subtitle: Are you interested in being listed here?
