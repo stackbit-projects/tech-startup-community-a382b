@@ -1,7 +1,7 @@
 ---
 title: Portfolio
 sections:
-- type: hero_section
+  - type: hero_section
     title: Who are we?
     align: center
   - type: content_section
