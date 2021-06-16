@@ -178,7 +178,7 @@ models:
   startups:
     type: data
     label: Startups
-    folder: team
+    folder: startups
     labelField: id
     fields:
       - type: string
