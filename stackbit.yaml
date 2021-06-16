@@ -632,7 +632,7 @@ models:
             - type: boolean
               name: relativeUrl
 
-  grid_section:
+  section_grid:
     type: object
     label: Grid Section
     extends:
