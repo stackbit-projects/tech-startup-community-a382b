@@ -34,7 +34,8 @@ export {
     Layout,
     SectionActions,
     TeamSection,
-    SectionGrid
+    SectionGrid,
+    CtaButtons
 };
 
 export default {
@@ -54,5 +55,6 @@ export default {
     Layout,
     SectionActions,
     TeamSection,
-    SectionGrid
+    SectionGrid,
+    CtaButtons
 };
