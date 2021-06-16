@@ -52,5 +52,6 @@ export default {
     Icon,
     Layout,
     SectionActions,
-    TeamSection
+    TeamSection,
+    SectionGrid
 };
