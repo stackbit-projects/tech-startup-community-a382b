@@ -1,6 +1,6 @@
 ---
 title: 'Non Minor, Inquit, Voluptas Percipitur Ex Vilissimis'
-author: content/data/team/miles-tone.yaml
+author: content/data/team/charles-c.yaml
 categories:
   - content/data/categories/news.yaml
   - content/data/categories/general.yaml
