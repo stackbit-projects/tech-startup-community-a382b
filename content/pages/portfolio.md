@@ -4,38 +4,9 @@ sections:
   - type: hero_section
     title: Portfolio
     align: center
-  - title: lorem-ipsum
-    subtitle: lorem-ipsum
-    actions: []
-    has_background: false
-    background_color: white
-    type: cta_section
-  - section_id: showcase
-    type: section_grid
-    col_number: three
-    grid_items:
-      - title: Exto
-        title_url: 'https://themes.stackbit.com/demos/exto/'
-        image: images/1.png
-        content: A portfolio theme for Unibit
-      - title: Fresh
-        title_url: 'https://themes.stackbit.com/demos/fresh/'
-        image: images/2.png
-        content: A personal theme for Unibit
-      - title: Fjord
-        title_url: 'https://themes.stackbit.com/demos/fjord/'
-        image: images/1.png
-        content: A minimal blogging theme for Unibit
-      - title: Ampersand
-        title_url: 'https://themes.stackbit.com/demos/ampersandexto/'
-        image: images/4.png
-        content: Medium inspired blogging theme for Unibit
-        actions: []
-        type: grid_item
   - type: content_section
     content: >-
-      Here are some of the amazing startups in our community. Feel free to check
-      them out!
+      Here are some of the amazing startups in our community. Feel free to check them out!
   - type: cta_section
     title: Join the Team
     subtitle: Are you interested in being listed here?
