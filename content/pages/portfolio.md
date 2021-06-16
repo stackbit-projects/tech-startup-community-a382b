@@ -4,6 +4,12 @@ sections:
   - type: hero_section
     title: Portfolio
     align: center
+  - title: lorem-ipsum
+    subtitle: lorem-ipsum
+    actions: []
+    has_background: false
+    background_color: white
+    type: cta_section
   - type: content_section
     content: >-
       Here are some of the amazing startups in our community. Feel free to check
