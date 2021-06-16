@@ -630,29 +630,3 @@ models:
               default: name
             - type: boolean
               name: relativeUrl
-  section_grid:
-    type: object
-    label: Grid Section
-    extends:
-      - section
-    fields:
-      - type: string
-        name: subtitle
-        label: Subtitle
-        description: The subtitle of the section
-      - type: enum
-        name: col_number
-        label: Columns
-        description: The number of grid items in a row
-        options:
-          - two
-          - three
-        default: three
-        required: true
-      - type: list
-        name: grid_items
-        label: Grid Items
-        items:
-          type: model
-          models:
-            - grid_item
