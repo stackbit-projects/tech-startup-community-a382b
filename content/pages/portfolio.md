@@ -10,6 +10,58 @@ sections:
     has_background: false
     background_color: white
     type: cta_section
+    - section_id: showcase
+    type: section_grid
+    col_number: three
+    grid_items:
+      - title: Exto
+        title_url: 'https://themes.stackbit.com/demos/exto/'
+        image: images/6.jpg
+        content: A portfolio theme for Unibit
+      - title: Fresh
+        title_url: 'https://themes.stackbit.com/demos/fresh/'
+        image: images/7.jpg
+        content: A personal theme for Unibit
+      - title: Fjord
+        title_url: 'https://themes.stackbit.com/demos/fjord/'
+        image: images/8.jpg
+        content: A minimal blogging theme for Unibit
+      - title: Ampersand
+        title_url: 'https://themes.stackbit.com/demos/ampersandexto/'
+        image: images/9.jpg
+        content: Medium inspired blogging theme for Unibit
+      - title: lorem-ipsum
+        title_url: lorem-ipsum
+        image_alt: lorem-ipsum
+        content: >-
+          ## Lorem ipsum
+
+
+          Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+
+          - Lorem ipsum
+
+          - dolor sit amet
+        actions: []
+        type: grid_item
+      - title: lorem-ipsum
+        title_url: lorem-ipsum
+        image_alt: lorem-ipsum
+        content: >-
+          ## Lorem ipsum
+
+
+          Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+
+          - Lorem ipsum
+
+          - dolor sit amet
+        actions: []
+        type: grid_item
   - type: content_section
     content: >-
       Here are some of the amazing startups in our community. Feel free to check
