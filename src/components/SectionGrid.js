@@ -25,7 +25,7 @@ export default class SectionGrid extends React.Component {
                     {content && <div className="grid-item-content">{markdownify(content)}</div>}
                     {!_.isEmpty(actions) && (
                         <div className="grid-item-buttons">
-                            
+                            <CtaButtons actions={actions} />
                         </div>
                     )}
                 </div>
