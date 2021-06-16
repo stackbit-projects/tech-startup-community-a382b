@@ -4,7 +4,7 @@ import _ from 'lodash';
 import {classNames, withPrefix} from '../utils';
 import SectionActions from './SectionActions';
 
-export default class HeroSection extends React.Component {
+export default class PortfolioGrid extends React.Component {
     renderBackgroundImage(background) {
         const backgroundImage = _.get(background, 'background_image');
         const backgroundOpacity = _.get(background, 'background_image_opacity', 100) * 0.01;
