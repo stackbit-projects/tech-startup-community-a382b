@@ -519,7 +519,7 @@ models:
         items:
           type: reference
           models:
-            - person
+            - startups
   feature:
     type: object
     label: Feature
