@@ -1,80 +1,59 @@
 import React from 'react';
 import _ from 'lodash';
 
-import {classNames, withPrefix} from '../utils';
-import SectionActions from './SectionActions';
+import { getData, withPrefix, markdownify } from '../utils';
 
-export default class PortfolioGrid extends React.Component {
-    renderBackgroundImage(background) {
-        const backgroundImage = _.get(background, 'background_image');
-        const backgroundOpacity = _.get(background, 'background_image_opacity', 100) * 0.01;
-        const backgroundSize = _.get(background, 'background_image_size', 'cover');
-        const backgroundRepeat = _.get(background, 'background_image_repeat', 'no-repeat');
+export default class TeamSection extends React.Component {
+    renderTeamMember(teamMemberRef, index, data) {
+        const teamMember = getData(data, teamMemberRef);
+        if (!teamMember) {
+            return null;
+        }
+        const photo = _.get(teamMember, 'photo');
+        const photoAlt = _.get(teamMember, 'photo_alt', '');
+        const firstName = _.get(teamMember, 'first_name', '');
+        const lastName = _.get(teamMember, 'last_name', '');
+        const name = _.trim(`${firstName} ${lastName}`);
+        const bio = _.get(teamMember, 'bio');
         return (
-            <div
-                className="bg-image__image"
-                style={{
-                    backgroundImage: `url('${withPrefix(backgroundImage)}')`,
-                    opacity: backgroundOpacity,
-                    backgroundSize: backgroundSize,
-                    backgroundRepeat: backgroundRepeat
-                }}
-            />
-        );
+            <div key={index} className="cell">
+                <div className="card team-member">
+                    {photo && (
+                        <figure className="card__media card__media--bottom">
+                            <img src={withPrefix(photo)} alt={photoAlt} />
+                        </figure>
+                    )}
+                    <div className="card__body">
+                        <header className="card__header">
+                            <h3 className="h4 card__title">{name}</h3>
+                        </header>
+                        {bio && <div className="card__copy">{markdownify(bio)}</div>}
+                    </div>
+                </div>
+            </div>
+        )
     }
 
     render() {
+        const data = _.get(this.props, 'data');
         const section = _.get(this.props, 'section');
-        const align = _.get(section, 'align', 'left');
-        const image = _.get(section, 'image');
-        const imageAlt = _.get(section, 'image_alt', '');
-        const imagePosition = _.get(section, 'image_position', 'left');
         const title = _.get(section, 'title');
-        const subtitle = _.get(section, 'subtitle');
-        const actions = _.get(section, 'actions');
-        const hasBackground = _.get(section, 'has_background');
-        const background = _.get(section, 'background');
-        const backgroundColor = _.get(background, 'background_color', 'white');
-        const backgroundImage = _.get(background, 'background_image');
+        const team = _.get(section, 'team');
 
         return (
-            <section 
-                className={classNames('section', 'hero', {
-                    'bg-image': hasBackground && backgroundImage,
-                    'bg-gray': hasBackground && backgroundColor === 'gray',
-                    'bg-blue': hasBackground && backgroundColor === 'blue',
-                    'inverse': hasBackground && backgroundColor === 'blue',
-                    'section--padding': hasBackground && image
-                })}
-            >
-                {hasBackground && backgroundImage && this.renderBackgroundImage(background)}
-                <div className="container container--lg">
-                    <div
-                        className={classNames('flex', 'flex--middle', 'flex--center', 'flex--col-2', {
-                            'align-center': align === 'center',
-                            'align-right': align === 'right'
-                        })}
-                    >
-                        {image && (
-                            <div
-                                className={classNames('cell', 'section__media', {
-                                    'section__media--right': imagePosition === 'right'
-                                })}
-                            >
-                                <img src={withPrefix(image)} alt={imageAlt} />
-                            </div>
-                        )}
-                        <div className="cell section__body">
-                            {title && <h1 className="section__title">{title}</h1>}
-                            {subtitle && <div className="section__copy"><p>{subtitle}</p></div>}
-                            {!_.isEmpty(actions) && (
-                                <div className="section__actions btn-group">
-                                    <SectionActions actions={actions} />
-                                </div>
-                            )}
+            <section className="section section--team">
+                {title && (
+                    <div className="container container--md align-center">
+                        <h2 className="section__title">{title}</h2>
+                    </div>
+                )}
+                {!_.isEmpty(team) && (
+                    <div className="container container--lg">
+                        <div className="flex flex--col-3">
+                            {_.map(team, (teamMemberRef, index) => this.renderTeamMember(teamMemberRef, index, data))}
                         </div>
                     </div>
-                </div>
+                )}
             </section>
         );
     }
