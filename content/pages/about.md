@@ -24,7 +24,7 @@ sections:
       - content/data/team/miles-tone.yaml
   - type: cta_section
     title: Join the Team
-    subtitle: Are you interested in joining becoming a part of our staff team?
+    subtitle: Are you interested in joining our staff team?
     actions:
       - label: Contact Us
         url: /contact
