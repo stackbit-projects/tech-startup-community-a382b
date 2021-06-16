@@ -53,7 +53,7 @@ sections:
           and potential improvements. We will provide our honest thoughts and
           help you improve your product through gaining valuable insight from
           many other people.
-        align: right
+        align: left
         image: images/feature.svg
         image_alt: Feature 3 placeholder image
         image_position: right
