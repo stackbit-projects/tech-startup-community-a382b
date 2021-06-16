@@ -4,10 +4,6 @@ sections:
   - type: hero_section
     title: Portfolio
     align: center
-  - title: Here are some startups in our community
-    show_recent: false
-    recent_count: 0
-    type: blog_feed_section
   - type: cta_section
     title: Join the Team
     subtitle: Are you interested in being listed here?
