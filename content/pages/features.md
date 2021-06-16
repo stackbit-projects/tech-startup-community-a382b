@@ -21,10 +21,10 @@ sections:
             url: /about
             style: primary
       - title: Advice
-        content: >-
-          Ac felis donec et odio pellentesque. Sagittis vitae et leo duis ut
-          diam quam nulla. Ullamcorper a lacus vestibulum sed arcu non odio
-          euismod lacinia.
+        content: >
+          Whether you are an experienced entrepreneur or just starting your
+          journey, we are happy to provide advice, resources and suggestions to
+          support you in your journey.
         align: left
         image: images/feature.svg
         image_alt: Feature 2 placeholder image
