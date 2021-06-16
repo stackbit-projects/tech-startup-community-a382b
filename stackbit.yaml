@@ -504,7 +504,7 @@ models:
           type: reference
           models:
             - person
-  team_section:
+  portfolio_section:
     type: object
     label: Team Section
     labelField: title
