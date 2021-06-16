@@ -1,6 +1,6 @@
 ---
 title: Amet Nulla Facilisi Morbi Tempus
-author: content/data/team/gordon-norman.yaml
+author: content/data/team/charles-c.yaml
 categories:
   - content/data/categories/tutorials.yaml
 tags:
