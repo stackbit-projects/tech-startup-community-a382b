@@ -41,7 +41,7 @@ export default class PortfolioSection extends React.Component {
         const team = _.get(section, 'portfolio');
 
         return (
-            <section className="section section--team">
+            <section className="section section--portfolio">
                 {title && (
                     <div className="container container--md align-center">
                         <h2 className="section__title">{title}</h2>
