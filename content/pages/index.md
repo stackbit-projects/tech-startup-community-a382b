@@ -3,7 +3,9 @@ title: Home
 sections:
   - type: hero_section
     title: A community of entrepreneurs
-    subtitle: We are a community of entrepreneurs with
+    subtitle: >-
+      We are a community of entrepreneurs who share a common goal- to build
+      successful companies
     actions:
       - label: Learn More
         url: /features
