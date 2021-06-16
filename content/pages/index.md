@@ -11,7 +11,7 @@ sections:
         url: /features
         style: primary
       - label: Join us
-        url: /contact
+        url: 'https://discord.com/invite/VNStPxRCCk'
         style: secondary
     align: left
     image: images/hero.svg
