@@ -47,7 +47,7 @@ sections:
           - label: Learn More
             url: /about
             style: primary
-      - title: Community
+      - title: Networking
         content: >
           We provide you with support and encouragement. Entrepreneurship is
           extremely challenging yet rewarding. You are not alone. We are here to
