@@ -4,9 +4,9 @@ sections:
   - type: hero_section
     title: Portfolio
     align: center
-  - type: team_section
-    title: Our Team
-    team:
+  - type: portfolio_section
+    title: Portfolio
+    portfolio:
       - content/data/team/charles-c.yaml
   - type: cta_section
     title: Get listed
