@@ -4,9 +4,9 @@ import _ from 'lodash';
 import { getData, withPrefix, markdownify } from '../utils';
 
 export default class PortfolioSection extends React.Component {
-    renderPortfolioMember(teamMemberRef, index, data) {
-        const teamMember = getData(data, teamMemberRef);
-        if (!teamMember) {
+    renderPortfolioMember(portfolioMemberRef, index, data) {
+        const teamMember = getData(data, portfolioMemberRef);
+        if (!portfolioMember) {
             return null;
         }
         const photo = _.get(teamMember, 'photo');
