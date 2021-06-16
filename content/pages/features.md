@@ -45,7 +45,7 @@ sections:
         image_position: right
         actions:
           - label: Learn More
-            url: /blog
+            url: /about
             style: primary
       - title: Feedback
         content: >
@@ -59,7 +59,7 @@ sections:
         image_position: left
         actions:
           - label: Learn More
-            url: /blog
+            url: /about
             style: primary
 seo:
   title: Features
