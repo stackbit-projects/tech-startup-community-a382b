@@ -2,10 +2,10 @@
 title: Portfolio
 sections:
   - type: hero_section
-    title: Here are some startups in our community
+    title: Portfolio
     align: center
   - type: portfolio_section
-    title: Portfolio
+    title: Here are some startups in our community
     portfolio:
       - content/data/team/charles-c.yaml
   - type: cta_section
