@@ -182,29 +182,29 @@ models:
     labelField: id
     fields:
       - type: string
-        name: id
+        name: id1
         label: ID
         description: 'A unique identifier used when filtering posts, e.g. "john-doe"'
         required: false
       - type: string
-        name: link
+        name: link1
         label: Link
         description: 'The link to the startup's page, e.g. "blog/author/john-doe"'
       - type: string
-        name: first_name
+        name: first_name1
         label: First Name
         required: false
       - type: string
-        name: last_name
+        name: last_name1
         label: Last Name
       - type: image
-        name: photo
+        name: photo1
         label: Image
       - type: string
-        name: photo_alt
+        name: photo_alt1
         label: Image Alt Text
       - type: markdown
-        name: bio
+        name: bio1
         label: Bio
   category:
     type: data
