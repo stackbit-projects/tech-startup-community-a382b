@@ -185,7 +185,7 @@ models:
         name: id
         label: ID
         description: 'A unique identifier used when filtering posts, e.g. "john-doe"'
-        required: true
+        required: false
       - type: string
         name: link
         label: Link
@@ -193,7 +193,7 @@ models:
       - type: string
         name: first_name
         label: First Name
-        required: true
+        required: false
       - type: string
         name: last_name
         label: Last Name
