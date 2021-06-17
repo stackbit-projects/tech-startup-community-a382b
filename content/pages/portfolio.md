@@ -2,7 +2,7 @@
 title: Portfolio
 sections:
   - type: hero_section
-    title: Portfolio
+    title: Here are some startups in our community
     align: center
   - type: portfolio_section
     title: Portfolio
