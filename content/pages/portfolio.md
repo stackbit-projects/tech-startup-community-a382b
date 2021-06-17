@@ -7,7 +7,7 @@ sections:
   - type: portfolio_section
     title: Here are some startups in our community
     portfolio:
-      - content/data/team/charles-c.yaml
+      - content/data/startups/charles-c.yaml
   - type: cta_section
     title: Get listed
     subtitle: Are you interested in being listed here?
