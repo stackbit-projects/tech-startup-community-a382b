@@ -550,7 +550,7 @@ models:
         items:
           type: reference
           models:
-            - person
+            - startup
   feature:
     type: object
     label: Feature
